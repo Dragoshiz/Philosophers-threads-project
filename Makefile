@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dimbrea <dimbrea@student.42.fr>            +#+  +:+       +#+         #
+#    By: dodo <dodo@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/22 12:08:58 by dimbrea           #+#    #+#              #
-#    Updated: 2022/07/06 12:22:18 by dimbrea          ###   ########.fr        #
+#    Updated: 2024/01/04 14:37:04 by dodo             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = gcc
 
 RM = rm -f
 
-CFLAGS = -Wall -Wextra -Werror -pthread -g -fsanitize=thread
+CFLAGS = -Wall -Wextra -Werror -pthread -g 
 
 SRCS = \
 action_utils.c \
